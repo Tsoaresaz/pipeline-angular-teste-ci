@@ -9,7 +9,8 @@ on:
       - "**"
 
 jobs:
-  test:
+  angular-testes-unitários:
+    name: Angular testes unitários
     runs-on: ubuntu-latest
 
     steps:
@@ -19,7 +20,7 @@ jobs:
       - name: Instalar NodeJS
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: "10"
 
       - name: Instalar dependências
         run: npm install
