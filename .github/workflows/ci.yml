@@ -47,5 +47,8 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Instalar dependências
+        run: npm install
+
       - name: Rodar testes unitários
         run: npx ng test --watch=false --browsers=ChromeHeadless
