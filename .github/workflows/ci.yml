@@ -48,4 +48,4 @@ jobs:
           node-version: "20"
 
       - name: Rodar testes unitários
-        run: npm run test -- --watch=false --browsers=ChromeHeadless
+        run: npx ng test --watch=false --browsers=ChromeHeadless
