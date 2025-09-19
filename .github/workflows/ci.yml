@@ -9,7 +9,7 @@ on:
       - "**"
 
 jobs:
-  angular-testes-unitários:
+  angular-testes-unitarios:
     name: Angular testes unitários
     runs-on: ubuntu-latest
 
